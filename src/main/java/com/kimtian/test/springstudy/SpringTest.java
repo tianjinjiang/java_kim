@@ -1,7 +1,12 @@
 package com.kimtian.test.springstudy;
-
+/**
+ * Spring测试类
+ * @author kimtian
+ **/
 public class SpringTest {
-    public static void main(String[] args) {
-        System.out.println("这是一个测试git的类");
+    public String test() {
+        return "test";
     }
+
+
 }

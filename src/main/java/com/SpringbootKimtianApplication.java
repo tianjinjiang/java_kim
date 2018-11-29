@@ -2,6 +2,7 @@ package com;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+
 /**
  * 启动类
  *
@@ -10,7 +11,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 @SpringBootApplication
 public class SpringbootKimtianApplication {
 
-	public static void main(String[] args) {
-		SpringApplication.run(SpringbootKimtianApplication.class, args);
-	}
+    public static void main(String[] args) {
+        SpringApplication.run(SpringbootKimtianApplication.class, args);
+    }
 }
