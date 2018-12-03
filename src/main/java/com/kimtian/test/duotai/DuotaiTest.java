@@ -11,7 +11,9 @@ public class DuotaiTest {
         Animal animal = new Animal();
         //父类的引用可以指向子类的对象
         Animal dog = new Dog();
-
+        System.out.println("=================");
+        System.out.println(dog);
+        System.out.println("=================");
         Dog dog1 = new Dog();
         //自动类型提升  向上类型转换（隐式，自动类型转换），是小类型到大类型的转换（无风险）
         Animal animal1 = dog1;

@@ -1,16 +1,20 @@
 package com.kimtian.test.enumpractice;
-
+/**
+ * 性别枚举
+ *
+ * @author kimtian
+ **/
 public enum Gender {
     /**
-     * 保价保量
+     * 男的
      */
     MALE(0),
     /**
-     * 提量下单
+     * 女的
      */
     FEMALE(1),
     /**
-     * 保价不保量
+     * 保密
      */
     UNKNOW(2);
 
@@ -24,6 +28,7 @@ public enum Gender {
     public int getCode() {
         return code;
     }
+
 
     public static Gender valueOf(int code) {
         for (Gender type : Gender.values()) {
